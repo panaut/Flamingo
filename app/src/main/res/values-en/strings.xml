@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LoneShark Assistant</string>
+    <string name="activityMain_cmdDetailedPlan">Payback plan</string>
+    <string name="activityMain_cmdOverview">Overview</string>
+    <string name="activityMain_lblCalculationMode">Choose a parameter to set</string>
+    <string name="activityMain_lblCalculationMode_Instalment">Instalment</string>
+    <string name="activityMain_lblCalculationMode_Period">Payback period</string>
+    <string name="activityMain_lblCapital">Value:</string>
+    <string name="activityMain_lblInstalment">Desired instalment:</string>
+    <string name="activityMain_lblInterestRateDescription">(effective interest rate on an annual basis given in percentages)</string>
+    <string name="activityMain_lblIterestRate">Interest rate:</string>
+    <string name="activityMain_lblPeriod">Desired period (in months):</string>
+    <string name="activityMain_lblYearlyPaybackMode">How should the paybacks affect the process?</string>
+    <string name="activityMain_rbYearlyPayback_instalment">Instalment remains unchanged</string>
+    <string name="activityMain_rbYearlyPayback_instalment_description">(payback period will be affected)</string>
+    <string name="activityMain_lblYearlyPayback_period">Payback period remains unchanged</string>
+    <string name="activityMain_lblYearlyPayback_period_description">(instalment will be affected)</string>
+    <string name="activityMain_lblYearlyPayments_caption">Do you prefer partial paybacks?</string>
+    <string name="activityMain_lblYearlyPayments_description">(this is usually allowed ones a year)</string>
+    <string name="activityMain_lblYearlyPayback_instalment_description">(the amount you would be paying back)</string>
+    <string name="activityMain_yearlyPayments_no">No</string>
+    <string name="activityMain_yearlyPayments_yes">Yes</string>
+    <string name="error_1001">Please specify the loan Capital</string>
+    <string name="error_1002">Please specify payback period</string>
+    <string name="error_1003">Please specify desired instalment</string>
+    <string name="error_1004">Please specify interest rate</string>
+    <string name="error_1005">Please specify an amount to be  paid back each year</string>
+    <string name="error_1006">An error occurred during loan calculation</string>
+    <string name="error_1007">You have to exclude having partial paybacks in order to use calculation overview</string>
+    <string name="activityPaymentPlan_lblLoanDetailsTitle">Loan details</string>
+    <string name="activityPaymentPlan_loanDetails_capital">Capital:</string>
+    <string name="activityPaymentPlan_loanDetails_interestRate">Interest rate (per annum):</string>
+    <string name="activityPaymentPlan_loanDetails_period">Period (in months):</string>
+    <string name="activityPaymentPlan_loanDetails_totalInterestInPercent">Total interest:</string>
+    <string name="activityPaymentPlan_loanPayback_header_instalment">Instalment</string>
+    <string name="activityPaymentPlan_loanPayback_header_interest">Interest</string>
+    <string name="activityPaymentPlan_loanPayback_header_no">No.</string>
+    <string name="activityPaymentPlan_loanPayback_header_remainingDebt">Remaining debt</string>
+    <string name="activityPaymentPlan_loanPayback_title">Payback details</string>
+    <string name="paymentPlanRow_lblPartialPayback">Partial payback:</string>
+    <string name="mainActivity_loanOverview" formatted="false">%1$s loan can be entirely paid back through %2$d monthly instalments of %3$s.%nCumulative interest during the complete period is %4$s which makes %5$.2f %% of Capital.</string>
+    <string name="mainActivity_loanOverview_Title">Loan Overview</string>
+    <string name="action_settings">Settings</string>
+    <string name="activityMain_lblYearlyPayback_instalment">Specify the amount:</string>
+    <string name="activityMain_lblParticipation">Participation:</string>
+    <string name="error_1008">Please specify participation</string>
+    <string name="error_1009">Participation must be specified within a range (0 - 100)</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/regularView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtIndex"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:gravity="start|center_vertical"
+            android:text="101" />
+
+        <TextView
+            android:id="@+id/txtInstalment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:gravity="start|center_vertical"
+            android:text="250 €" />
+
+        <TextView
+            android:id="@+id/txtInterest"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:gravity="start|center_vertical"
+            android:text="45 €" />
+
+        <TextView
+            android:id="@+id/txtCapital"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:gravity="end|center_vertical"
+            android:text="38600 €" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/yearlyPaybackView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start|center_vertical"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"
+            android:text="@string/paymentPlanRow_lblPartialPayback" />
+
+        <TextView
+            android:id="@+id/txtYearlyPayback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end|center_vertical"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:textStyle="bold|italic"
+            android:text="8000 €"/>
+
+    </LinearLayout>
+
+</LinearLayout>

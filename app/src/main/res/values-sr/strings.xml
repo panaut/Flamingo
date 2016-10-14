@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pomoćnik za zelenašenje</string>
+    <string name="activityMain_cmdDetailedPlan">Plan otplate</string>
+    <string name="activityMain_cmdOverview">Pregled</string>
+    <string name="activityMain_lblCalculationMode">Koji parametar želite da postavite?</string>
+    <string name="activityMain_lblCalculationMode_Instalment">Visina rate</string>
+    <string name="activityMain_lblCalculationMode_Period">Period otplate:</string>
+    <string name="activityMain_lblCapital">Željeni iznos:</string>
+    <string name="activityMain_lblInstalment">Željena visina rate:</string>
+    <string name="activityMain_lblInterestRateDescription">(efektivna kamatna stopa na godišnjem nivou izražena u procentima)</string>
+    <string name="activityMain_lblIterestRate">Kamatna stopa:</string>
+    <string name="activityMain_lblPeriod">Unesite željeni broj meseci:</string>
+    <string name="activityMain_lblYearlyPaybackMode">Kako želite da ove uplate utiču na ostatak duga?</string>
+    <string name="activityMain_rbYearlyPayback_instalment">visina rate ostaje nepromenjena</string>
+    <string name="activityMain_rbYearlyPayback_instalment_description">(period otplate će se smanjiti)</string>
+    <string name="activityMain_lblYearlyPayback_period">period otplate ostaje nepromenjen</string>
+    <string name="activityMain_lblYearlyPayback_period_description">(visina rate ce biti umanjena)</string>
+    <string name="activityMain_lblYearlyPayments_caption">Zelite li da uracunate dodatne otplate?</string>
+    <string name="activityMain_lblYearlyPayments_description">(godisnje parcijalne prevremene otplate)</string>
+    <string name="activityMain_lblYearlyPayback_instalment_description">(iznos koji biste uplacivali)</string>
+    <string name="activityMain_yearlyPayments_no">ne</string>
+    <string name="activityMain_yearlyPayments_yes">da</string>
+    <string name="error_1001">Morate uneti zeljeni iznos kredita</string>
+    <string name="error_1002">Morate navesti željeni period otplate</string>
+    <string name="error_1003">Morate navesti željeni iznos rate</string>
+    <string name="error_1004">Morate navesti kamatnu stopu</string>
+    <string name="error_1005">Morate navesti dodatni iznos na godišnjem nivou koji biste uplaćivali svake godine</string>
+    <string name="error_1006">Došlo je do greške prilikom proračuna</string>
+    <string name="error_1007">Ukoliko želite pregled kalkulacije morate onemogućiti opciju prevremenih otplata</string>
+    <string name="activityPaymentPlan_lblLoanDetailsTitle">Detalji kredita</string>
+    <string name="activityPaymentPlan_loanDetails_capital">Iznos kredita:</string>
+    <string name="activityPaymentPlan_loanDetails_interestRate">Kamatna stopa:</string>
+    <string name="activityPaymentPlan_loanDetails_period">Broj mesečnih rata:</string>
+    <string name="activityPaymentPlan_loanDetails_totalInterestInPercent">Ukupna kamata (u procentima glavnice):</string>
+    <string name="activityPaymentPlan_loanPayback_header_instalment">rata</string>
+    <string name="activityPaymentPlan_loanPayback_header_interest">kamata</string>
+    <string name="activityPaymentPlan_loanPayback_header_no">r. br.</string>
+    <string name="activityPaymentPlan_loanPayback_header_remainingDebt">preostali dug</string>
+    <string name="activityPaymentPlan_loanPayback_title">Plan otplate</string>
+    <string name="paymentPlanRow_lblPartialPayback">Uplata dela glavnice:</string>
+    <string name="mainActivity_loanOverview" formatted="false">Kredit od %1$s se može otplatiti kroz %2$d mesečnih rata u iznosu od %3$s.%nUkupna kamata koja se pri tom otplati iznosi %4$s odnosno %5$.2f %% glavnice.</string>
+    <string name="mainActivity_loanOverview_Title">Kalkulacija kredita</string>
+    <string name="action_settings">Podešavanja</string>
+    <string name="activityMain_lblYearlyPayback_instalment">Navedite iznos:</string>
+    <string name="activityMain_lblParticipation">Učešće:</string>
+    <string name="error_1008">Morate navesti učešće</string>
+    <string name="error_1009">Učešće mora biti u opsegu od 1% do 100%</string>
+</resources>
