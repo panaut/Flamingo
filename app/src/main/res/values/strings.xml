@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LoneShark Assistant</string>
+    <string name="app_name">Mortgage Planner</string>
     <string name="error_1001">Please specify the loan Capital</string>
     <string name="error_1002">Please specify payback period</string>
     <string name="error_1003">Please specify desired instalment</string>
@@ -7,7 +7,7 @@
     <string name="error_1005">Please specify an amount to be  paid back each year</string>
     <string name="error_1006">An error occurred during loan calculation</string>
     <string name="error_1008">Please specify participation</string>
-    <string name="error_1009">Participation must be specified within a range (0 - 100)</string>
+    <string name="error_1009">Participation must be specified within a range (0 &#8211; 100)</string>
     <string name="activityMain_lblCapital">Value:</string>
     <string name="activityMain_lblIterestRate">Interest rate:</string>
     <string name="activityMain_lblCalculationMode_Period">Payback period</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LoneShark Assistant</string>
+    <string name="app_name">Mortgage Planner</string>
     <string name="activityMain_cmdDetailedPlan">Payback plan</string>
     <string name="activityMain_cmdOverview">Overview</string>
     <string name="activityMain_lblCalculationMode">Choose a parameter to set</string>
@@ -45,5 +45,5 @@
     <string name="activityMain_lblYearlyPayback_instalment">Specify the amount:</string>
     <string name="activityMain_lblParticipation">Participation:</string>
     <string name="error_1008">Please specify participation</string>
-    <string name="error_1009">Participation must be specified within a range (0 - 100)</string>
+    <string name="error_1009">Participation must be specified within a range (0 &#8211; 100)</string>
 </resources>
